@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Landmarks
 //
-//  Created by funabiki takuya on 2023/12/11.
+//  Created by funabiki takuya on 2023/11/30.
 //
 
 import SwiftUI
@@ -21,4 +21,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }
